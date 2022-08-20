@@ -20,4 +20,7 @@ patches:
 - path: ignore-deployment-mutation-patch.yaml
   target:
     kind: Deployment
+- path: namespace/helm.yaml
+  tagret:
+    kind: Namespace
 # [END anthosconfig_helm_component_automated_rendering_kustomization_yaml]
